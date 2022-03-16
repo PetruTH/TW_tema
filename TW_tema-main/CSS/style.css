@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(250, 250, 250);
+}
+
+.frameDiv{
+    display: none; 
+    position: absolute; 
+    height: 100vh; 
+    width: 100vw; 
+    top: 0; 
+    left: 0; 
+    background-color: rgba(0,0,0,.65); 
+    position: fixed;
+}
+
+.frameDivChild{
+    display: flex; 
+    width: 100%; 
+    height: 100%; 
+    align-items: center;
+}
+
+.mainDisplay {
+    display: block; 
+    margin: auto; 
+    width: 70%; 
+    height: 85%;
+}
+
+.mainDisplayFlex{
+    display: flex; 
+    width: 100%; 
+    height: 100%;
+}
+
+.exitButton{
+    position: absolute; 
+    right: 40px; 
+    top: 20px; 
+    height: 40px; 
+    width: 40px;
+}
+
+.rightColumn{
+    background-color: white; 
+    display: flex; 
+    height: 100%;
+    width: 45%; 
+    flex-direction: column;
+}
+
+#photo_1{
+    border: none;
+    display: none;
+}
+
+#photo_2{
+    border: none;
+    display: none;
+}
+
+#photo_3{
+    border: none;
+    display: none;
+}
+
+#photo_4{
+    border: none;
+    display: none;
+}
